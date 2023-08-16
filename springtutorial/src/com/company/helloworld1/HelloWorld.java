@@ -1,4 +1,4 @@
-package com.company.helloworld;
+package com.company.helloworld1;
 
 public class HelloWorld {
     private String message;

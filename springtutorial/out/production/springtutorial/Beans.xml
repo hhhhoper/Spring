@@ -5,8 +5,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="helloworld" class="com.company.helloworld.HelloWorld">
+    <bean id="helloworld" class="com.company.helloworld1.HelloWorld">
         <property name="message" value="Spring:Hello World!"/>
     </bean>
-
+    <bean id="beanfactory" class="com.company.beanfactory2.HelloWorld">
+        <property name="message" value="beanfactory:helloworld!"/>
+    </bean>
+    <bean id="applicationcontext" class="com.company.applicationcontext3.HelloWorld">
+        <property name="message" value="applicationfactory:helloworld!"/>
+    </bean>
 </beans>
