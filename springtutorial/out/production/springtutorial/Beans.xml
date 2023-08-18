@@ -57,21 +57,21 @@
     </bean>
 
 
-    <!--Spring依赖注入基于构造函数的依赖注入
-    <bean id="textEditor" class="com.company.spring依赖注入.基于构造函数的依赖注入.TextEditor">
+    <!--Spring依赖注入基于构造函数的依赖注入8
+    <bean id="textEditor" class="com.company.spring依赖注入.基于构造函数的依赖注入8.TextEditor">
         <constructor-arg ref="spellChecker"/>
     </bean>-->
-    <bean id="spellChecker" class="com.company.spring依赖注入.基于构造函数的依赖注入.SpellChecker">
+    <bean id="spellChecker" class="com.company.spring依赖注入.基于构造函数的依赖注入8.SpellChecker">
     </bean>
 
 
-    <!--Spring依赖注入设值函数的依赖注入-->
-    <bean id="spring设置函数TextEditor" class="com.company.spring依赖注入.基于设值函数的依赖注入.TextEditor">
+    <!--Spring依赖注入设值函数的依赖注入9-->
+    <bean id="spring设置函数TextEditor" class="com.company.spring依赖注入.基于设值函数的依赖注入9.TextEditor">
         <property name="spellChecker" ref="spellChecker"/>
     </bean>
     <!--
     同上面基于构造函数的依赖注入的spellChecker
-    <bean id="spellChecker" class="com.company.spring依赖注入.基于构造函数的依赖注入.SpellChecker">
+    <bean id="spellChecker" class="com.company.spring依赖注入.基于构造函数的依赖注入8.SpellChecker">
     </bean>
     -->
 

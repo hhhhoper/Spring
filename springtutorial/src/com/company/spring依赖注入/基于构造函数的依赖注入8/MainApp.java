@@ -1,4 +1,4 @@
-package com.company.spring依赖注入.基于构造函数的依赖注入;
+package com.company.spring依赖注入.基于构造函数的依赖注入8;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

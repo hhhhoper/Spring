@@ -1,0 +1,17 @@
+Spring 注入内部 Beans
+正如你所知道的 Java 内部类是在其他类的范围内被定义的，同理，inner beans 是在其他 bean 的范围内定义的 bean。因此<property />或<constructor-arg />元素中的<bean />元素称为内部bean，如下所示。
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <bean id="outerBean" class="...">
+      <property name="target">
+         <bean id="innerBean" class="..."/>
+      </property>
+   </bean>
+
+</beans>

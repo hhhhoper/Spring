@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <!--Spring依赖注入内部10-->
+    <bean id="spring10_TextEditor" class="com.company.spring依赖注入.spring注入内部Beans10.TextEditor">
+        <property name="spellChecker">
+            <bean id="spring10_SpellChecker" class="com.company.spring依赖注入.spring注入内部Beans10.SpellChecker"></bean>
+        </property>
+    </bean>
+</beans>

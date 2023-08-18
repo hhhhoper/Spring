@@ -1,6 +1,6 @@
-package com.company.spring依赖注入.基于设值函数的依赖注入;
+package com.company.spring依赖注入.基于设值函数的依赖注入9;
 
-import com.company.spring依赖注入.基于构造函数的依赖注入.SpellChecker;
+import com.company.spring依赖注入.基于构造函数的依赖注入8.SpellChecker;
 
 public class TextEditor {
     private SpellChecker spellChecker;

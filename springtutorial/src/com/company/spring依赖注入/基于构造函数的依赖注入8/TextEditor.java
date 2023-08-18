@@ -1,4 +1,4 @@
-package com.company.spring依赖注入.基于构造函数的依赖注入;
+package com.company.spring依赖注入.基于构造函数的依赖注入8;
 
 public class TextEditor {
     private SpellChecker spellChecker;

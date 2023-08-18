@@ -1,4 +1,4 @@
-package com.company.spring依赖注入.基于设值函数的依赖注入;
+package com.company.spring依赖注入.基于设值函数的依赖注入9;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
