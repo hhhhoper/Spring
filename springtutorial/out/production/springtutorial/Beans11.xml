@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
     <!--Definition for javaCollection-->
-    <bean id="javaCollection" class="com.company.spring依赖注入.Spring注入集合11.JavaCollection">
+    <bean id="javaCollection" class="com.company.spring依赖注入2.Spring注入集合11.JavaCollection">
         <!--results in a setAddressList(java.util.List)call-->
         <property name="addressList">
             <list>
