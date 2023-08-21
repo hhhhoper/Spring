@@ -30,12 +30,12 @@
           scope="prototype"></bean>
 
 
-    <!--springbean生命周期
+    <!--springbean生命周期  -->
     <bean id="spring5" class="com.company.ioc容器1.springbean生命周期5.HelloWorld"
     init-method="init" destroy-method="destroy" >
         <property name="message" value="Hello World!"/>
     </bean>
-    -->
+
 
     <!--Spring后置处理器6
 
