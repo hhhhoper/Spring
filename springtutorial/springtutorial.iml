@@ -62,5 +62,77 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/aspectj-1.8.10.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/lib/aspectj-1.8.10.jar!/doc/aspectj5rt-api" />
+          <root url="jar://$MODULE_DIR$/lib/aspectj-1.8.10.jar!/doc/runtime-api" />
+          <root url="jar://$MODULE_DIR$/lib/aspectj-1.8.10.jar!/doc/weaver-api" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/aspectj-1.8.10.jar!/doc/examples" />
+          <root url="jar://$MODULE_DIR$/lib/aspectj-1.8.10.jar!/doc/examples/ltw" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/aspectjweaver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/aspectjrt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/aspectjtools.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.aspectj.matcher.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/mysql-connector-j-8.1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/org.springframework.jdbc-3.0.2.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/org.springframework.transaction-3.1.0.release.jar!/" />
+          <root url="file://$MODULE_DIR$" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/lib/aspectj/doc/aspectj5rt-api" />
+          <root url="file://$MODULE_DIR$/lib/aspectj/doc/runtime-api" />
+          <root url="file://$MODULE_DIR$/lib/aspectj/doc/weaver-api" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/lib/aspectj/doc/examples" />
+          <root url="file://$MODULE_DIR$/lib/aspectj/doc/examples/ltw" />
+          <root url="file://$MODULE_DIR$/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
